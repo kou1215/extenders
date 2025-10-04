@@ -11,5 +11,5 @@ COPY build/libs/*.jar app.jar
 ENV PORT 8080
 EXPOSE ${PORT}
 
-# Javaアプリを起動
+# Javaアプリを起動 test
 CMD ["java", "-jar", "app.jar"]
