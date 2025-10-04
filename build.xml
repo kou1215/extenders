@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="extenders-demo" default="war" basedir=".">
+    <property name="src.dir" value="src/main/java"/>
+    <property name="build.dir" value="build"/>
+    <property name="web.dir" value="webapp"/>
+    <property name="war.name" value="extenders-demo.war"/>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${build.dir}/WEB-INF/classes"/>
+        <javac srcdir="${src.dir}" destdir="${build.dir}/WEB-INF/classes" includeantruntime="false"/>
+    </target>
+
+    <target name="war" depends="clean,compile">
+        <mkdir dir="${build.dir}/META-INF"/>
+        <war destfile="build/war/${war.name}" webxml="${web.dir}/WEB-INF/web.xml">
+            <fileset dir="${web.dir}" excludes="WEB-INF/web.xml"/>
+            <fileset dir="${build.dir}"/>
+        </war>
+    </target>
+</project>

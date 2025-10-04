@@ -1,1 +1,12 @@
-/.metadata/
+# EclipseやIDEの設定ファイル
+.classpath
+.project
+.settings/
+
+# ビルド成果物
+build/
+bin/
+target/
+
+# Javaクラスファイル
+*.class
