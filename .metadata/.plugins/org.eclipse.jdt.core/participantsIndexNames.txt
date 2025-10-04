@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\KS22018-\Documents\GitHub\extenders\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\820195969.index
-\extenders-demo\src\main\java
