@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\KS22018-\Desktop\test\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1333377150.index
-\HelloApp\src\main\java

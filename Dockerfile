@@ -1,4 +1,4 @@
-FROM tomcat:11.0-jdk25
+FROM tomcat:9.0-jdk17
 COPY myapp.war /usr/local/tomcat/webapps/
 EXPOSE 8080
 CMD ["catalina.sh", "run"]

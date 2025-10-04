@@ -1,5 +1,5 @@
-contextsDir=C:/Users/KS22018-/Desktop/tomcat/9/conf/Catalina/localhost
+contextsDir=C:/pleiades/2025-06/tomcat/9/conf/Catalina/localhost
 eclipse.preferences.version=1
-tomcatConfigFile=C:/Users/KS22018-/Desktop/tomcat/9/conf/server.xml
-tomcatDir=C:/Users/KS22018-/Desktop/tomcat/9
+tomcatConfigFile=C:/pleiades/2025-06/tomcat/9/conf/server.xml
+tomcatDir=C:/pleiades/2025-06/tomcat/9
 tomcatVersion=tomcatV9
