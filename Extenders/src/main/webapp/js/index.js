@@ -1,6 +1,6 @@
 
 // エンドポイント
-const ws = new WebSocket("ws://localhost:8080/Extenders/chat");
+const ws = new WebSocket("ws://74.220.48.1:8080/Extenders/chat");
 
 $(function() {
 
